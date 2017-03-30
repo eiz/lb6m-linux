@@ -12,7 +12,7 @@
 
 /dts-v1/;
 
-/include/ "e500v2_power_isa.dtsi"
+/include/ "fsl/e500v2_power_isa.dtsi"
 
 / {
 	model = "LB6M";
