@@ -16,7 +16,8 @@
 
 / {
 	model = "LB6M";
-	compatible = "LB6M";
+	compatible = "MPC8541CDS", "MPC85xxCDS";
+
 	#address-cells = <1>;
 	#size-cells = <1>;
 
