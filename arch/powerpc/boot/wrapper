@@ -310,6 +310,11 @@ simpleboot-virtex440-*)
     platformo="$object/fixed-head.o $object/simpleboot.o $object/virtex.o"
     binary=y
     ;;
+simpleboot-lb6m)
+    platformo="$object/fixed-head.o $object/simpleboot.o"
+    link_address='0x02000000'
+    binary=y
+    ;;
 simpleboot-*)
     platformo="$object/fixed-head.o $object/simpleboot.o"
     binary=y
